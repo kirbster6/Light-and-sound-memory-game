@@ -39,8 +39,15 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
+
+Note: For sake of space/length of video I reduced the pattern to 4 clues, however, the code should run with 8 clues.
+![](prework_win.gif)
+
+Note: Shows players losing both ways (mistakes/time)
+![](prework_lose.gif)
+
+Note: Shows stopping mid sequence, also stops the timer.
+![](prework_stop_while_playing.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
@@ -86,7 +93,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright [Kirby Ammari]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
