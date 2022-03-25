@@ -4,7 +4,7 @@
 
 Submitted by: **Kirby Ammari**
 
-Time spent: **5** hours spent in total
+Time spent: **8** hours spent in total
 
 Link to project: (https://glitch.com/edit/#!/ginger-verbose-camera?path=script.js%3A1%3A0)
 
@@ -34,7 +34,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [X] When the user makes a mistake, it plays Homer Simpson "doh" sound
+- [X] When the user makes a mistake, it plays Homer Simpson "doh" sound. Also forces the player to play the same pattern again until they get it or lose.
 
 ## Video Walkthrough (GIF)
 
