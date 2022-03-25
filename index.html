@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <audio id="dohAudio" src="https://cdn.glitch.global/1d79ca76-4257-4e04-8ab9-ae73ba00d294/doh.swf.mp3?v=1648174727297"></audio>
+    <h1>Kirby Says!</h1>
+    <p>
+      Hello Player! Welcome to Kirby Says! This game plays very similarly to the popular game Simon!
+      Memorize the pattern played once you press the start button, and try and replicate it within
+      10 seconds. As you progress, the game will add one more button on
+      each turn and get faster. Make it to turn 8 with less than 3 mistakes and you win! ♪┏(・o･)┛♪┗ ( ･o･) ┓♪
+    </p>
+    
+    <div>
+      <button id="startBtn" onclick="startGame()">Start</button>
+      <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+      <p id="mistakeCounter">
+        Mistakes: 0
+      </p>
+      <p id="timer"></p>
+    </div>
+    
+    
+    <div id="gameButtonArea">
+      <button id="button1" onmousedown="startTone(1)" onmouseup="stopTone(1)" onclick="guess(1)"></button>
+      <button id="button2" onmousedown="startTone(2)" onmouseup="stopTone(2)" onclick="guess(2)"></button>
+      <button id="button3" onmousedown="startTone(3)" onmouseup="stopTone(3)" onclick="guess(3)"></button>
+      <button id="button4" onmousedown="startTone(4)" onmouseup="stopTone(4)" onclick="guess(4)"></button>
+      <button id="button5" onmousedown="startTone(5)" onmouseup="stopTone(5)" onclick="guess(5)"></button>
+      <button id="button6" onmousedown="startTone(6)" onmouseup="stopTone(6)" onclick="guess(6)"></button>
+    </div>
+    
+  </body>
+</html>
