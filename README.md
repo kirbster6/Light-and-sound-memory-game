@@ -41,8 +41,6 @@ The following **additional** features are implemented:
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 ![](gif1-link-here)
 ![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
@@ -57,14 +55,27 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 - https://sebhastian.com/display-javascript-variable-html/
 - https://www.rapidtables.com/web/css/css-color.html
 
-2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it?
 
-3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+    A challenge I encountered during this project was implementing the timer functionality. Much like the prework submission warns, this was definitely the most challenging aspect to implement. More specifically, finding the proper time and place to start and clear the interval was difficult. Much like many of the issues I run into when it comes to the timing/placing of a function, I use console log messages and a lot of test runs to fix the issue. In this case, I ran into an issue with needing to wait until after the sequence was finished to begin the countdown to stay consistent with the user having 10 seconds per turn after the sequence. To do this I first tried to set a constant amount of time to delay after the sequence ran, however, this is an issue due to the changing times of the sequence. After more debugging, I noticed that the delay variable adds the delays of the times for each clue together. Using that along with the setTimeout function, I was able to properly implement the timer. Finally, implementing the locations of the start and the clear interval was important to ensure I cleared the timer when it should be and vice versa. Again this took some playing with but after numerous console.log(“Here”) statements I was able to finish this task.
 
-4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+3. What questions about web development do you have after completing your submission?
+
+    After completing this submission, I am very curious about the relationship between HTML and JavaScript. It is evident throughout the project that these two languages work very closely together. Unlike other languages I’ve used like Python, JavaScript looks to be very interesting not only with how it works with HTML but also the various third-party libraries that people have created to help web developers create incredible projects.
+    
+	Beyond the technical side of web development, I am also very excited to learn about team mechanics on group-based projects. I wonder greatly what makes a team environment run smoothly so that I can bring the same attitude, planning, etc. to any group or company I may work at. 
+    
+	Lastly, I am also very interested to see how each level of a full-stack project works and how they collaborate with one another to create the applications we see today. I am beyond thrilled to see how many great ideas can be crafted with web development and the resources available at tech companies.
+
+
+4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific.
+
+    I think my first goal would be to clean up some of the code specifically with the timer. I placed numerous closeInterval() commands where I felt they were needed. And I feel like repeating that command multiple times may not be the most efficient, and I would like to see how to best reformat that in a cleaner way. 
+
+	I would also want to customize the site more until I really liked the way it looked, and keep with a consistent theme. I definitely had a lot of fun working on this project and incorporating the programming languages mascot as the hidden image, but I think maintaining a theme would make everything look more complete.
+    
+	Once I like where my project is after cleaning up the existing code, I would want to implement additional features such as a score tally that maintains the number of games you’ve won, keeping the user more engaged beyond just one game. Along with that, I would want to allow the user to make their own customizations. For example, I would allow them to make the game harder or easier, changing the speed of the clues and length of the pattern accordingly. I think this would be a nice touch to really make a complete project.
+
 
 
 
