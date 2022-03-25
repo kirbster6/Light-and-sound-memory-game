@@ -45,12 +45,13 @@ function startGame(){
 
 function stopGame(){
   //sets game variables to stop state
+  clearInterval(timer);
   gamePlaying = false;
   clueHoldTime = 1000;
   mistakes = 0;
   counter = 10;
-  clearInterval(timer);
 
+  
   // swap the Start and Stop buttons
   document.getElementById("startBtn").classList.remove("hidden");
   document.getElementById("stopBtn").classList.add("hidden");
