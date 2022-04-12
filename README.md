@@ -88,7 +88,7 @@ Note: Shows stopping mid sequence, also stops the timer.
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](https://www.youtube.com/watch?v=FTOxgBt-Zgs)
+[My 5-minute Interview Recording](https://uci.zoom.us/rec/share/EKii77cfHeconv-0D8j0KnmBdcvD1sqNJodYSeidsFcCBohfirTDLsh4i4hrPmK8.9dTgMfqD4mjQrwYs?startTime=1649729639000)
 
 
 ## License
